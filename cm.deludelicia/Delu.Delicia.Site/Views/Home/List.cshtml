@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Delu.Delicia.Site.Models.FeedbacksModels>
+
+@{
+    ViewBag.Title = "Lista de depoimentos";
+    Layout = "~/Views/Shared/_LayoutSecure.cshtml";
+}
+
+<h2>Lista de depoimentos</h2>
+
+<p>
+    &nbsp;
+</p>
+
+@if (Model.Count() == 0)
+{
+    <hr />
+    @Html.ActionLink("Criar novo depoimento", "Create")
+    <hr />
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>
+                Descrição
+            </th>
+            <th>
+                Nome
+            </th>
+            <th>
+                @Html.ActionLink("Criar novo depoimento", "Create")
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @*@Html.ActionLink("Editar", "Edit", new { id=item.Id }) |*@
+                    @Html.ActionLink("Deletar", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+}
+
+<div>
+    @Html.ActionLink("Voltar", "Index", "Dashboard")
+</div>

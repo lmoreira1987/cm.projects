@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Delu.Delicia", "Delu.Delicia\Delu.Delicia.xproj", "{1446B37D-771F-483A-B5E8-74705ACE4FFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delu.Delicia.MVC", "Delu.Delicia.MVC\Delu.Delicia.MVC.csproj", "{2B7CF7CB-EC56-4432-9917-936CDCCB1896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delu.Delicia.Site", "Delu.Delicia.Site\Delu.Delicia.Site.csproj", "{2562C669-C8FE-4CB7-BD60-5C9B221B61E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1446B37D-771F-483A-B5E8-74705ACE4FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1446B37D-771F-483A-B5E8-74705ACE4FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1446B37D-771F-483A-B5E8-74705ACE4FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1446B37D-771F-483A-B5E8-74705ACE4FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B7CF7CB-EC56-4432-9917-936CDCCB1896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B7CF7CB-EC56-4432-9917-936CDCCB1896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B7CF7CB-EC56-4432-9917-936CDCCB1896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B7CF7CB-EC56-4432-9917-936CDCCB1896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2562C669-C8FE-4CB7-BD60-5C9B221B61E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2562C669-C8FE-4CB7-BD60-5C9B221B61E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2562C669-C8FE-4CB7-BD60-5C9B221B61E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2562C669-C8FE-4CB7-BD60-5C9B221B61E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

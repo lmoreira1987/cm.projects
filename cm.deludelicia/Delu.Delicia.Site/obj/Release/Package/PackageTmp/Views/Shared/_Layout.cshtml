@@ -1,0 +1,159 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="CODEMOREIRA">
+    <meta name="keywords" content="delu delícia | deludelícia | deludelicia | bolos | doces | festas | buffet | cupcake | aniversário" />
+    <meta name="description" content="A Delu Delícia é uma confeitaria que cria produtos sofisticados para a sua festa." />
+    <meta name="language" content="pt-br" />
+    <meta name="robots" content="all, follow" />
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+    <!-- Animate.css -->
+    <link href="~/Content/css/animate.css" rel="stylesheet" />
+    <!-- Icomoon Icon Fonts-->
+    <link href="~/Content/css/icomoon.css" rel="stylesheet" />
+    <!-- Themify Icons-->
+    <link href="~/Content/css/themify-icons.css" rel="stylesheet" />
+    <!-- Bootstrap  -->
+    <link href="~/Content/css/bootstrap.css" rel="stylesheet" />
+    <!-- Magnific Popup -->
+    <link href="~/Content/css/magnific-popup.css" rel="stylesheet" />
+    <!-- Bootstrap DateTimePicker -->
+    <link href="~/Content/css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+    <!-- Owl Carousel  -->
+    <link href="~/Content/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="~/Content/css/owl.theme.default.min.css" rel="stylesheet" />
+    <!-- Theme style  -->
+    <link href="~/Content/css/style.css" rel="stylesheet" />
+    <!-- Modernizr JS -->
+    <script src="~/Content/js/modernizr-2.6.2.min.js"></script>
+    <!-- FOR IE9 below -->
+    <!--[if lt IE 9]>
+    <script src="~/Content/js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+
+    <div class="gtco-loader"></div>
+
+    <div id="page">
+
+        @RenderBody()
+
+        <footer id="gtco-footer" role="contentinfo" style="background-image: url(/content/images/contato.jpg)">
+            <div class="overlay"></div>
+            <div class="gtco-container">
+                <div class="row row-pb-md">
+
+
+                    <div class="col-md-12 text-center">
+                        <div class="gtco-widget">
+                            <h3>Entre em contato</h3>
+                            <ul class="gtco-quick-contact">
+                                <li><a href="tel://(11) 97635-1873"><i class="icon-phone"></i>(11) 97635-1873</a></li>
+                                <li><a href="mailto:andluc38@gmail.com"><i class="icon-mail2"></i>andluc38@gmail.com</a></li>
+                                @*<li><a href="#"><i class="icon-chat"></i>Chat ao vivo</a></li>*@
+                            </ul>
+                        </div>
+                        <div class="gtco-widget">
+                            <h3>Mídia social</h3>
+                            <ul class="gtco-social-icons">
+                                @*<li><a href="#"><i class="icon-twitter"></i></a></li>*@
+                                <li><a href="http://www.facebook.com/delu"><i class="icon-facebook"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-center copyright">
+                        <p>
+                            <small class="block">Desenvolvido por:&nbsp; <a href="http://codemoreira.azurewebsites.net/" target="_blank">CODE MOREIRA</a></small>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </footer>
+        <!-- </div> -->
+    </div>
+    <div class="gototop js-top hidden-xs">
+        <a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="~/Content/js/jquery.min.js"></script>
+    <!-- jQuery Easing -->
+    <script src="~/Content/js/jquery.easing.1.3.js"></script>
+    <!-- Bootstrap -->
+    <script src="~/Content/js/bootstrap.min.js"></script>
+    <!-- Waypoints -->
+    <script src="~/Content/js/jquery.waypoints.min.js"></script>
+    <!-- Carousel -->
+    <script src="~/Content/js/owl.carousel.min.js"></script>
+    <!-- countTo -->
+    <script src="~/Content/js/jquery.countTo.js"></script>
+    <!-- Stellar Parallax -->
+    <script src="~/Content/js/jquery.stellar.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="~/Content/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/Content/js/magnific-popup-options.js"></script>
+
+    <script src="~/Content/js/moment.min.js"></script>
+    <script src="~/Content/js/bootstrap-datetimepicker.min.js"></script>
+
+    <!-- Main -->
+    <script src="~/Content/js/main.js"></script>
+
+    @RenderSection("scripts", required: false)
+
+    <!-- https://chat.olark.com/ -->
+    <!-- begin olark code -->
+    <script data-cfasync="false" type='text/javascript'>
+        /*<![CDATA[*/window.olark || (function (c) {
+            var f = window, d = document, l = f.location.protocol == "https:" ? "https:" : "http:", z = c.name, r = "load"; var nt = function () {
+                f[z] = function () {
+                    (a.s = a.s || []).push(arguments)
+                }; var a = f[z]._ = {
+                }, q = c.methods.length; while (q--) {
+                    (function (n) {
+                        f[z][n] = function () {
+                            f[z]("call", n, arguments)
+                        }
+                    })(c.methods[q])
+                } a.l = c.loader; a.i = nt; a.p = {
+                    0: +new Date
+                }; a.P = function (u) {
+                    a.p[u] = new Date - a.p[0]
+                }; function s() {
+                    a.P(r); f[z](r)
+                } f.addEventListener ? f.addEventListener(r, s, false) : f.attachEvent("on" + r, s); var ld = function () {
+                    function p(hd) {
+                        hd = "head"; return ["<", hd, "></", hd, "><", i, ' onl' + 'oad="var d=', g, ";d.getElementsByTagName('head')[0].", j, "(d.", h, "('script')).", k, "='", l, "//", a.l, "'", '"', "></", i, ">"].join("")
+                    } var i = "body", m = d[i]; if (!m) {
+                        return setTimeout(ld, 100)
+                    } a.P(1); var j = "appendChild", h = "createElement", k = "src", n = d[h]("div"), v = n[j](d[h](z)), b = d[h]("iframe"), g = "document", e = "domain", o; n.style.display = "none"; m.insertBefore(n, m.firstChild).id = z; b.frameBorder = "0"; b.id = z + "-loader"; if (/MSIE[ ]+6/.test(navigator.userAgent)) {
+                        b.src = "javascript:false"
+                    } b.allowTransparency = "true"; v[j](b); try {
+                        b.contentWindow[g].open()
+                    } catch (w) {
+                        c[e] = d[e]; o = "javascript:var d=" + g + ".open();d.domain='" + d.domain + "';"; b[k] = o + "void(0);"
+                    } try {
+                        var t = b.contentWindow[g]; t.write(p()); t.close()
+                    } catch (x) {
+                        b[k] = o + 'd.write("' + p().replace(/"/g, String.fromCharCode(92) + '"') + '");d.close();'
+                    } a.P(2)
+                }; ld()
+            }; nt()
+        })({
+            loader: "static.olark.com/jsclient/loader0.js", name: "olark", methods: ["configure", "extend", "declare", "identify"]
+        });
+        /* custom configuration goes here (www.olark.com/documentation) */
+        olark.identify('8199-125-10-1825');/*]]>*/</script><noscript><a href="https://www.olark.com/site/8199-125-10-1825/contact" title="Contact us" target="_blank">Questions? Feedback?</a> powered by <a href="http://www.olark.com?welcome" title="Olark live chat software">Olark live chat software</a></noscript>
+    <!-- end olark code -->
+
+</body>
+</html>

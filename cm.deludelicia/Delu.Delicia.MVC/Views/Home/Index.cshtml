@@ -1,0 +1,191 @@
+﻿@model List<Delu.Delicia.MVC.Models.FeedbacksModels>
+
+@Html.Partial("MenuHome")
+
+<header id="gtco-header" class="gtco-cover gtco-cover-md" role="banner" style="background-image: url(/content/images/cake.jpg)" data-stellar-background-ratio="0.5">
+    <div class="overlay"></div>
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-md-12 col-md-offset-0 text-left">
+                <div class="row row-mt-15em">
+                    <div class="col-md-7 mt-text animate-box" data-animate-effect="fadeInUp">
+                        <span class="intro-text-small">Bolos, cupcakes, trufas e muito mais</span>
+                        <h1 class="cursive-font">Tudo de bom gosto!</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="gtco-section" id="produtos">
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                <h2 class="cursive-font primary-color">Produtos</h2>
+                <p>Principais categorias de produtos que disponibilizamos para os nossos clientes.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="/Produtos?id=1" class="fh5co-card-item" title="Clique para ver os produtos">
+                    <figure>
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <img src="~/content/images/Category/bolos_festa.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2>Bolos para festas</h2>
+                        <p>Bolos decorativos para aniversários, casamento e outras festas</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="/Produtos?id=2" class="fh5co-card-item" title="Clique para ver os produtos">
+                    <figure>
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <img src="~/content/images/Category/bolos_tradicional.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2>Bolos tradicionais</h2>
+                        <p>São simples porém deliciosos, é o melhor custo benefício que podemos oferecer</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="/Produtos?id=3" class="fh5co-card-item" title="Clique para ver os produtos">
+                    <figure>
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <img src="~/content/images/Category/tortas.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2>Tortas doces e salgadas</h2>
+                        <p>As mais deliciosas tortas que seu paladar jamais conseguiria imaginar</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="/Produtos?id=4" class="fh5co-card-item" title="Clique para ver os produtos">
+                    <figure>
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <img src="~/content/images/Category/cupcakes.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2>Cupcakes</h2>
+                        <p>Aqueles que duvidarem de seu pequeno-grande poder irão se surpreender</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="/Produtos?id=5" class="fh5co-card-item" title="Clique para ver os produtos">
+                    <figure>
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <img src="~/content/images/Category/trufas.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2>Trufas diversas</h2>
+                        <p>Belíssimas e super saborosas, são elas as trufas</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <a href="/Produtos?id=6" class="fh5co-card-item" title="Clique para ver os produtos">
+                    <figure>
+                        <div class="overlay"><i class="ti-plus"></i></div>
+                        <img src="~/content/images/Category/outros.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2>Outros produtos</h2>
+                        <p>Aqueles produtos que fazem com que a sua festa seja única</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="gtco-cover gtco-cover-sm" style="background-image: url(/content/images/feedback.jpg)" id="depoimentos">
+    <div class="overlay"></div>
+    <div class="gtco-container-carousel text-center">
+        <!-- Carousel -->
+        <div id="carousel-delu" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-delu" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-delu" data-slide-to="1"></li>
+                <li data-target="#carousel-delu" data-slide-to="2"></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+
+                @for (int i = 0; i < Model.Count; i++)
+                {
+                    if (i == 0)
+                    {
+                        @Html.Raw("<div class=\"item active\">")
+                    }
+                    else
+                    {
+                        @Html.Raw("<div class=\"item\">")
+                    }
+
+                    @Html.Raw("    <div class=\"display-t\">")
+                    @Html.Raw("        <div class=\"display-tc\">")
+                    @Html.Raw("            <h1>&ldquo; " + Model[i].Description + " &rdquo;</h1>")
+                    @Html.Raw("            <p>&mdash; " + Model[i].Name + "</p>")
+                    @Html.Raw("        </div>")
+                    @Html.Raw("    </div>")
+                    @Html.Raw("</div>")
+                }
+                
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-delu" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#carousel-delu" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div><!-- /carousel -->
+    </div>
+</div>
+
+<div id="gtco-features">
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+                <h2 class="cursive-font">Serviços</h2>
+                <p>Os nossos serviços são baseados em três pilares para que a excelência necessária para uma festa possa ser alcançada</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="feature-center animate-box" data-animate-effect="fadeIn">
+                    <span class="icon">
+                        <i class="ti-face-smile"></i>
+                    </span>
+                    <h3>Felicidade do Cliente</h3>
+                    <p>Fazemos nossos produtos para agradar o cliente com isso buscamos ser sempre excelentes no que estamos fazendo</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="feature-center animate-box" data-animate-effect="fadeIn">
+                    <span class="icon">
+                        <i class="ti-thought"></i>
+                    </span>
+                    <h3>Criatividade</h3>
+                    <p>O cliente nos contrata para um determinado produto e com isso damos o nossos toque criativo para que fique ainda mais maravilhoso</p>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="feature-center animate-box" data-animate-effect="fadeIn">
+                    <span class="icon">
+                        <i class="ti-truck"></i>
+                    </span>
+                    <h3>Entrega garantida</h3>
+                    <p>Fazemos a entrega no local e horário combinado sem que haja a menor das preocupações</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

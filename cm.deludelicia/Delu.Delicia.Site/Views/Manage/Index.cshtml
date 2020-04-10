@@ -1,0 +1,28 @@
+﻿@model Delu.Delicia.Site.Models.IndexViewModel
+@{
+    Layout = "~/Views/Shared/_LayoutSecure.cshtml";
+    ViewBag.Title = "Gerenciar Usuário";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <h4>Alterar senha</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Senha:</dt>
+        <dd>
+            [
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink("Alterar Senha", "ChangePassword")
+            }
+            else
+            {
+                @Html.ActionLink("Criar", "SetPassword")
+            }
+            ]
+        </dd>
+    </dl>
+</div>

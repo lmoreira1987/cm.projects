@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Delu.Delicia.Site.Models.ContactModels>
+
+@{
+    ViewBag.Title = "Lista de contatos";
+    Layout = "~/Views/Shared/_LayoutSecure.cshtml";
+}
+
+<h2>Lista de contatos</h2>
+
+<p>
+    &nbsp;
+</p>
+
+<table class="table">
+    <tr>
+        <th>
+            Nome
+        </th>
+        <th>
+            Telefone
+        </th>
+        <th>
+            Email
+        </th>
+        <th>
+            Mensagem
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Message)
+            </td>
+        </tr>
+    }
+
+</table>
+
+<div>
+    @Html.ActionLink("Voltar", "Index", "Dashboard")
+</div>

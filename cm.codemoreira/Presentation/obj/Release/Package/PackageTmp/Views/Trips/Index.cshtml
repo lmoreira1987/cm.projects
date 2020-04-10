@@ -1,0 +1,96 @@
+﻿@model List<FileInfo>
+
+@{
+    ViewBag.Title = "Code Moreira";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Leonardo Batista Moreira">
+    <meta name="keywords" content="Code Moreira | sustentação de Aplicações | Desenvolvimento de Aplicações | Consultoria de Diagnósticos de TI | E-business & Performance Web | Alocação de Serviços | Outsourcing | Gestão de Projetos | sites | web | desenvolvimento | towards the new | global | system | php | .net | sas | sap | oracle" />
+    <meta name="description" content="A Code Moreira é uma startup que tem como criador um aspirante a Empreendedor" />
+    <meta name="language" content="pt-br" />
+    <meta name="robots" content="all, follow" />
+
+    <!--title-->
+    <title>CODE MOREIRA</title>
+
+    <!--CSS-->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet">
+    <link href="~/Content/animate.css" rel="stylesheet">
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet">
+    <link href="~/Content/font.css" rel="stylesheet">
+    <link href="~/Content/prettyPhoto.css" rel="stylesheet">
+    <link href="~/Content/main.css" rel="stylesheet">
+    <link href="~/Content/responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+        <script src="/scripts/html5shiv.js"></script>
+        <script src="/scripts/respond.min.js"></script>
+    <![endif]-->
+    <link rel="shortcut icon" href="/Content/images/ico/favicon.png">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/Content/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/Content/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/Content/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/Content/images/ico/apple-touch-icon-57-precomposed.png">
+</head><!--/head-->
+<body>
+    
+    <div class="our-team padding-bottom" data-wow-duration="700ms" data-wow-delay="300ms">
+        <h2 class="text-center heading">New York </h2>
+        <div id="team-carousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="item active">
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-sm-3  wow zoomIn">
+                            <div class="team-member">
+                                <div class="member-image">
+                                    <img class="img-responsive" src="/Content/Images/Trips/USA/NewYork/@item.Name">
+                                </div>
+                                <div class="overlay">
+                                    <h4>New York</h4>
+                                    <p>The city that never sleeps</p>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="text-center">
+        <a href="javascript:history.back();" style="color: rgba(53, 46, 101, 1)">Voltar</a>
+    </p>
+    <p>&nbsp;</p>
+    <footer id="footer">
+        <div class="container text-center wow zoomIn" data-wow-duration="700ms" data-wow-delay="300ms">
+            <p>&copy; @DateTime.Now.Year <a href="#">Code Moreira</a> All rights reserved.</p>
+        </div>
+        @*<a data-scroll href="#navigation" class="to-top"></a>*@
+    </footer><!--/#footer-->
+    <!--/#scripts-->
+    <script type="text/javascript" src="~/Scripts/jquery.js"></script>
+    <script type="text/javascript" src="~/Scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="~/Scripts/gmaps.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.parallax.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.appear.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.inview.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/wow.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/jquery.countTo.js"></script>
+    <script type="text/javascript" src="~/Scripts/smooth-scroll.js"></script>
+    <script type="text/javascript" src="~/Scripts/canvas.js"></script>
+    <script type="text/javascript" src="~/Scripts/preloader.js"></script>
+    <script type="text/javascript" src="~/Scripts/main.js"></script>
+    <script type="text/javascript" src="~/Scripts/sendMail.js"></script>
+</body>
+</html>

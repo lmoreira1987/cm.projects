@@ -1,0 +1,110 @@
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Presentation.dll.config
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Presentation.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Presentation.pdb
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Antlr3.Runtime.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\EntityFramework.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\EntityFramework.SqlServer.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Security.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Newtonsoft.Json.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Owin.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\System.Web.Helpers.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\System.Web.Mvc.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\System.Web.Optimization.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\System.Web.Razor.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\System.Web.WebPages.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\System.Web.WebPages.Razor.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\WebGrease.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\System.Web.Helpers.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\System.Web.Mvc.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\System.Web.Optimization.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\System.Web.Razor.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\System.Web.WebPages.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\System.Web.WebPages.Razor.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Newtonsoft.Json.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Antlr3.Runtime.pdb
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\EntityFramework.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\EntityFramework.SqlServer.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Security.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\obj\Release\Presentation.dll
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\obj\Release\Presentation.pdb
+C:\Users\Usuario\Documents\CodeMoreira\Presentation\obj\Release\CodeMoreira.MVC.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Presentation.dll.config
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Presentation.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Presentation.pdb
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Antlr3.Runtime.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\EntityFramework.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\EntityFramework.SqlServer.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Security.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Newtonsoft.Json.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Owin.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\System.Web.Helpers.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\System.Web.Mvc.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\System.Web.Optimization.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\System.Web.Razor.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\System.Web.WebPages.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\System.Web.WebPages.Razor.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\WebGrease.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\System.Web.Helpers.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\System.Web.Mvc.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\System.Web.Optimization.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\System.Web.Razor.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\System.Web.WebPages.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\System.Web.WebPages.Razor.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Newtonsoft.Json.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Antlr3.Runtime.pdb
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\EntityFramework.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\EntityFramework.SqlServer.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Security.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\obj\Release\CodeMoreira.MVC.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\obj\Release\Presentation.dll
+C:\Users\Usuario\Documents\_Meus Arquivos\Projetos\codemoreira\Presentation\obj\Release\Presentation.pdb

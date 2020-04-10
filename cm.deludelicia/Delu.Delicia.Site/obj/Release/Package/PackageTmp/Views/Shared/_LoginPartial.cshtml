@@ -1,0 +1,9 @@
+﻿@using Microsoft.AspNet.Identity
+
+@if(Session["Login"]!=null)
+{ 
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Sair", "LogOff", "Account")</li>
+</ul>
+    
+}

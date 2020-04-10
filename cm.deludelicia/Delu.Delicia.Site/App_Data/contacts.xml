@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contacts>
+  <contact>
+    <id>1</id>
+    <name>n</name>
+    <phone>p</phone>
+    <email>e</email>
+    <message>m</message>
+  </contact>
+  <contact>
+    <id>2</id>
+    <name>sddsfdsfd</name>
+    <phone>dfsffddsffdsfds</phone>
+    <email>leonardo.moreira1987@hotmail.com</email>
+    <message>fdsfdfdfddfdfs</message>
+  </contact>
+  <contact>
+    <id>3</id>
+    <name>Leonardo Moreira</name>
+    <phone>11998118105</phone>
+    <email>leonardo.moreira1987@hotmail.com</email>
+    <message>teste 1</message>
+  </contact>
+</contacts>

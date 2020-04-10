@@ -1,0 +1,123 @@
+﻿@model List<Delu.Delicia.MVC.Models.ProductsModels>
+
+@Html.Partial("Menu")
+
+<header id="gtco-header" class="gtco-cover gtco-cover-sm" role="banner" style="background-image: url(/content/images/products.jpg)">
+    <div class="overlay"></div>
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-md-12 col-md-offset-0 text-center">
+                <div class="row row-mt-15em">
+                    <div class="col-md-12 mt-text animate-box" data-animate-effect="fadeInUp">
+                        <span class="intro-text-small">Nossos deliciosos produtos</span>
+                        <h1 class="cursive-font">@ViewBag.Produtos</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+<div class="gtco-section" id="produtos">
+    <div class="gtco-container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading">
+                <h2 class="cursive-font primary-color">Produtos</h2>
+                <p>Principais produtos da categoria: <b>@ViewBag.Produtos</b>.</p>
+            </div>
+        </div>
+        <div class="row">
+
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-md-4 col-sm-6">
+                    <div class="fh5co-card-item">
+                        <figure>
+                            <div class="overlay"></div>
+                            <img src="@item.Img" alt="@item.Title" class="img-responsive">
+                        </figure>
+                        <div class="fh5co-text">
+                            <h2>@item.Title</h2>
+                            <p>@item.Description</p>
+                        </div>
+                    </div>
+                </div>
+            }
+
+            @*<div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="fh5co-card-item">
+                    <figure>
+                        <div class="overlay"></div>
+                        <img src="~/content/images/Category/bolos_festa.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2>Bolos para festas</h2>
+                        <p>Bolos decorativos para aniversários, casamento e outras festas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="fh5co-card-item">
+                    <figure>
+                        <div class="overlay"></div>
+                        <img src="~/content/images/Category/bolos_tradicional.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2>Bolos tradicionais</h2>
+                        <p>São simples porém deliciosos, é o melhor custo benefício que podemos oferecer</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="fh5co-card-item">
+                    <figure>
+                        <div class="overlay"></div>
+                        <img src="~/content/images/Category/tortas.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2>Tortas doces e salgadas</h2>
+                        <p>As mais deliciosas tortas que seu paladar jamais conseguiria imaginar</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="fh5co-card-item">
+                    <figure>
+                        <div class="overlay"></div>
+                        <img src="~/content/images/Category/cupcakes.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2>Cupcakes</h2>
+                        <p>Aqueles que duvidarem de seu pequeno-grande poder irão se surpreender</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="fh5co-card-item">
+                    <figure>
+                        <div class="overlay"></div>
+                        <img src="~/content/images/Category/trufas.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2>Trufas diversas</h2>
+                        <p>Belíssimas e super saborosas, são elas as trufas</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="fh5co-card-item">
+                    <figure>
+                        <div class="overlay"></div>
+                        <img src="~/content/images/Category/outros.jpg" alt="Image" class="img-responsive">
+                    </figure>
+                    <div class="fh5co-text">
+                        <h2>Outros produtos</h2>
+                        <p>Aqueles produtos que fazem com que a sua festa seja única</p>
+                    </div>
+                </div>
+            </div>*@
+        </div>
+    </div>
+</div>

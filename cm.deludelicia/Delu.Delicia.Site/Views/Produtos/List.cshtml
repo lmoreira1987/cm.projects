@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Delu.Delicia.Site.Models.ProductsModels>
+
+@{
+    ViewBag.Title = "Lista de produtos";
+    Layout = "~/Views/Shared/_LayoutSecure.cshtml";
+}
+
+<h2>Lista de produtos</h2>
+
+<p>
+    &nbsp;
+</p>
+@if (Model.Count() == 0)
+{
+    <hr />
+    @Html.ActionLink("Criar novo produto", "Create")
+    <hr />
+}
+else
+{
+    <table class="table">
+        <tr>
+            <th>
+                Categoria
+            </th>
+            <th>
+                Título
+            </th>
+            <th>
+                Descrição
+            </th>
+            <th>
+                @Html.ActionLink("Criar novo produto", "Create")
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Category)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @*@Html.ActionLink("Editar", "Edit", new { /* id=item.PrimaryKey */ }) |*@
+                    @Html.ActionLink("Deletar", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+
+    </table>
+}
+
+<div>
+    @Html.ActionLink("Voltar", "Index", "Dashboard")
+</div>

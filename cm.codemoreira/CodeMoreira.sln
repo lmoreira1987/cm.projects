@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeMoreira.MVC", "Presentation\CodeMoreira.MVC.csproj", "{65070E05-53C9-4540-B385-17269C0611F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeMoreira.Tests", "CodeMoreira.Tests\CodeMoreira.Tests.csproj", "{ED62A027-0D35-45A8-AD5F-8AB154D5D93B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{77DC9102-A474-4179-B20F-FF9ABCE56300}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{12592AC0-4A0B-4B84-8F0C-1D1791E374F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Azure|Any CPU = Azure|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65070E05-53C9-4540-B385-17269C0611F3}.Azure|Any CPU.ActiveCfg = Azure|Any CPU
+		{65070E05-53C9-4540-B385-17269C0611F3}.Azure|Any CPU.Build.0 = Azure|Any CPU
+		{65070E05-53C9-4540-B385-17269C0611F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65070E05-53C9-4540-B385-17269C0611F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65070E05-53C9-4540-B385-17269C0611F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65070E05-53C9-4540-B385-17269C0611F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED62A027-0D35-45A8-AD5F-8AB154D5D93B}.Azure|Any CPU.ActiveCfg = Azure|Any CPU
+		{ED62A027-0D35-45A8-AD5F-8AB154D5D93B}.Azure|Any CPU.Build.0 = Azure|Any CPU
+		{ED62A027-0D35-45A8-AD5F-8AB154D5D93B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED62A027-0D35-45A8-AD5F-8AB154D5D93B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED62A027-0D35-45A8-AD5F-8AB154D5D93B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED62A027-0D35-45A8-AD5F-8AB154D5D93B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{65070E05-53C9-4540-B385-17269C0611F3} = {77DC9102-A474-4179-B20F-FF9ABCE56300}
+		{ED62A027-0D35-45A8-AD5F-8AB154D5D93B} = {12592AC0-4A0B-4B84-8F0C-1D1791E374F6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<products>
+  <product id="1">
+    <image>/content/images/Category/bolos_festa.jpg</image>
+    <title>Bolos para festas</title>
+    <description>Bolos decorativos para aniversários, casamento e outras festas</description>
+  </product>
+  <product id="2">
+    <image>i2</image>
+    <title>n2</title>
+    <description>d2</description>
+  </product>
+  <product id="1">
+    <image>/content/images/Category/bolos_festa.jpg</image>
+    <title>teste 1 desc</title>
+    <description>teste 1 desc</description>
+  </product>
+  <product id="2">
+    <image>/content/images/Category/bolos_festa.jpg</image>
+    <title>teste 1 desc</title>
+    <description>teste 1 desc</description>
+  </product>
+</products>
